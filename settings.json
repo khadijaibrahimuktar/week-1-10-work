@@ -1,0 +1,101 @@
+{
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\msys64\\ucrt64\\bin;${env:PATH}"
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#17121A",
+        "editor.foreground": "#F4B6D2",
+        "editorLineNumber.foreground": "#8F7888",
+        "editorLineNumber.activeForeground": "#FF8FC7",
+        "editorCursor.foreground": "#FF8FC7",
+        "editor.selectionBackground": "#563044",
+        "editor.lineHighlightBackground": "#211923",
+        "sideBar.background": "#201923",
+        "sideBar.foreground": "#F4B6D2",
+        "sideBarTitle.foreground": "#FF8FC7",
+        "sideBarSectionHeader.background": "#2A202B",
+        "sideBarSectionHeader.foreground": "#FFB3D7",
+        "activityBar.background": "#19141C",
+        "activityBar.foreground": "#FF8FC7",
+        "activityBar.inactiveForeground": "#A88B9B",
+        "statusBar.background": "#382130",
+        "statusBar.foreground": "#FFD5E8",
+        "titleBar.activeBackground": "#201923",
+        "titleBar.activeForeground": "#FFB3D7",
+        "panel.background": "#1B151E",
+        "panel.border": "#382536",
+        "terminal.background": "#17121A",
+        "terminal.foreground": "#F4B6D2"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword",
+                    "storage.type",
+                    "storage.modifier",
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "foreground": "#FF8FC7"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type",
+                    "support.type",
+                    "support.class"
+                ],
+                "settings": {
+                    "foreground": "#F5A6D0"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function",
+                    "support.function"
+                ],
+                "settings": {
+                    "foreground": "#FFC0E0"
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "variable.other",
+                    "meta.definition.variable"
+                ],
+                "settings": {
+                    "foreground": "#F4B6D2"
+                }
+            },
+            {
+                "scope": [
+                    "string",
+                    "constant.character"
+                ],
+                "settings": {
+                    "foreground": "#FF9FCF"
+                }
+            },
+            {
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "foreground": "#B894A8",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                    "foreground": "#FFD0E4"
+                }
+            }
+        ]
+    }
+}
